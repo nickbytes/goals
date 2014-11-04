@@ -314,4 +314,12 @@ body {
   font-size: 0.9em; }
 
 .parent-goal {
-  color: #878b8c; }
+  color: #878b8c;
+  margin-bottom: 0; }
+
+time {
+  font-size: 0.9em; }
+
+.backwards {
+  display: block;
+  padding-bottom: 3em; }
