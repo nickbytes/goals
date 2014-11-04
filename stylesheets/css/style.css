@@ -137,6 +137,12 @@ cite {
   cite:before {
     content: "\2014 \00A0"; }
 
+strong {
+  font-weight: 700; }
+
+em {
+  font-style: italic; }
+
 fieldset {
   background: #a1a4a5;
   border: 1px solid #878b8c;
