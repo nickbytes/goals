@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Goals | {{title}}</title>
+  <link rel="alternate" type="application/rss+xml" href="{{site.feed_url}}" />
+  <link rel="stylesheet" type="text/css" href="/stylesheets/css/style.css" />
+  <script src="//use.typekit.net/drj1dzk.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+  <div class="wrap">
+
+    <header class="primary-header">
+      <a href="/">&#8592; Back to Goals</a>
+      <h1>{{title}}</h1>
+      <p class="parent-goal">Goal: {{parent.title}}</p>
+      <time>{{date | date: "%-d %b %Y"}}</time>
+    </header>
+
+    <section class="content">
+      {{body}}
+    </section><!-- /content -->
+  </div><!-- /wrap -->
+</body>
+</html>
