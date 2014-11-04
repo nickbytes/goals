@@ -1,0 +1,77 @@
+@import "reset";
+@import "bourbon/bourbon";
+@import "base/base";
+
+$one: 768px;
+$two: 1200px;
+$three: 1440px;
+
+html {
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+*{
+  margin: 0;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	font-family: "source-sans-pro",sans-serif;
+}
+
+.site-title{
+	text-transform: uppercase;
+	letter-spacing: 1em;
+	font-family: "hwt-republic-gothic-outline";
+	color: $base-accent-color;
+	padding-bottom: 0.15em;
+}
+
+.site-tagline{
+	font-size: 0.9em;
+}
+
+.wrap{
+	width: 87%;
+	max-width: 38em;
+	margin: 0 auto;
+	padding-top: 1.5em;
+
+	@media screen and (min-width: $one){
+		padding-top: 3em;
+	}
+}
+
+.signature{
+	font-family: "felt-tip-woman";
+}
+
+.content{
+	padding-top: 3em;
+}
+
+.goal{
+	padding-bottom: 2em;
+}
+
+.goal-title{
+	font-weight: 700;
+	font-size: 1.15em;
+}
+
+.goal-subtext{
+	font-size: 0.9em;
+}
+
+.goal-list{
+	@extend %default-ul;
+}
+
+
+
