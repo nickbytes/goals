@@ -87,5 +87,17 @@ time{
 	padding-bottom: 3em;
 }
 
+.footer-text{
+	font-size: 0.5em;
+	padding: 1em 0 2em;
+	color: $light-gray;
+}
+
+.default{
+	.footer-text{
+		padding: 4em 0 2em;
+	}
+}
+
 
 
